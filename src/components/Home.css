@@ -1,0 +1,37 @@
+.box-item{
+     border-radius: 30px;
+}
+
+#box1{
+     background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
+.circle{
+     background: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+}
+.summary-group{
+     /* gap: 10px; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* align-items: center; */
+}
+.summary{
+     border-radius: 10px ;
+     height: 60px;
+     padding: 0px 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     gap: 10px;
+}
+.continue-btn{
+     background: hsl(224, 30%, 27%);
+     border: none;
+     color: white;
+     border-radius: 50px;
+     height: 50px;
+     width: 100%;
+     cursor: pointer;
+}
+
